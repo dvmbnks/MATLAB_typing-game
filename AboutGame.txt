@@ -24,4 +24,6 @@ The words that are displayed are from an excel file that contains thousands of w
 
 NOTE:
 Typ.m file name could not be changed as MATLAB GUIDE causes issues if done so. 
+Run Typ.m in a folder with the other files to be able to play the game. 
 
+Demonstration Video can be found: https://www.youtube.com/watch?v=GfNV8PEdwGo&ab_channel=DevamBanker
