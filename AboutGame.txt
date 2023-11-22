@@ -1,0 +1,27 @@
+ABOUT GAME:
+
+I have made a typing testing game. Where you type the words or sentences displayed and collect points. 
+The game then eventually tells you your words per min and your accuracy. 
+
+There are 2 different modes.
+There is also the instructions on the side on how to play.
+Tells you your correct letters.
+Tells you your incorrect letters.
+
+
+Key Features:
+The words that are displayed are from an excel file that contains thousands of wards. 
+- The words are Randomly displayed words by turning excell cells into a vector And the index for the vector is randomly generated which then returns the word and is displayed. 
+- Can press enter or select enter.
+- 60 Second timer, after that the user input is no longer accepted. 
+- Bar Charts that show results after playing at least one round. 
+- Easy Mode just displays random words. 
+- Hard Mode creates 6 word sentences where the first letter is Capital and there is a period at the end. 
+- Accuracy is tested by seeing how many inputs you have and how many you get correct. 
+- You can play the game as many times as you wish. 
+
+
+
+NOTE:
+Typ.m file name could not be changed as MATLAB GUIDE causes issues if done so. 
+

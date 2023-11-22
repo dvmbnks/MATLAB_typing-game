@@ -1,0 +1,29 @@
+Testing Iteration 4
+
+Testing to Press ENTER (from keyboard not Button) to ensure that it works with Correct Values.
+Word		Input (User)        Output(Matlab GUIDE)      Expected Output
+because		because				1				   		  1
+other		other 				2				     	  2
+xi			xi					3				          3
+
+Testing to Press ENTER (from keyboard not Button) to ensure that it works with Incorrect Values.
+Word		Input (User)         Output(Matlab GUIDE)   Expected Output
+windows		zero				0				 		0
+torture		young 				0				 		0
+that		zoom				0				  		0
+
+Testing to Press ENTER (from keyboard not Button) when the user writes the word with a Capital instead.
+Word		Input (User)        Output(Matlab GUIDE)     Expected Output
+immigration	Immigration			0	               		 0
+younger		Younger				0	                	 0
+youth		Youth				0	                	 0
+
+Testing to ensure UPPER case Words are mixed with lowercase Words. 
+Word		Input (User)        Output(Matlab GUIDE)      Expected Output
+HOME		HOME				1				   		  1
+sound		sound 				2				     	  2
+COOL		COOL				3				          3
+
+
+In all the cases  (Score is the output) and assume that the same case has occured throughout the 60 seconds as there is a timer. 
+Since, the GUI is the only thing that changed. The testing remains identical with new test of Upper and lower words.  

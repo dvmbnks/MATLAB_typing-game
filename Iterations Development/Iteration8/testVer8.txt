@@ -1,0 +1,48 @@
+Mode: EASY
+
+Test 1: Testing Correct Letters
+
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Output4(Letters)		Output5(mistakes) 			Expected Output1 		Expected Output2	Expected Output3	Expected Output4	Expected Output5
+thanksgiving	thanksgiving 	thanksgiving				[null]							1						12						0							thanksgiving				[null]			1					12						0	
+qualification	qualification	qualification				[null]							2						25						0							qualification				[null]			2					25						0		
+read			read			read						[null]							3						29						0							read						[null]			3					29						0
+	
+Test 2: Testing incorrect Letters
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Output4(Letters)		Output5(mistakes) 			Expected Output1 		Expected Output2	Expected Output3	Expected Output4	Expected Output5
+quantumn		poptropica 		[null]						poptropi						0						0						8							[null]					[null]				0					0						8	
+qualification	your			[null]						your							0						0						21							[null]					[null]				0					0						21		
+books			tropical		[null]						tropi							0						0						26							[null]					[null]				0					0						26	
+
+Test 3: Mixing Letters
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Output4(Letters)		Output5(mistakes) 			Expected Output1 		Expected Output2	Expected Output3	Expected Output4	Expected Output5
+letter			letier 		    let er						   i  							0						5						1							let er					   i 				0					5						1	
+keyboard		keybaord		keyb  rd					    ao							0						11						3							keyb  rd				    ao				0					11						3		
+microphone		micriiphone		micr						    iiphon						0						15						9							micr					iiphon				0					15						9	
+
+Test 4: Opposing Capital Letters:
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Output4(Letters)		Output5(mistakes) 			Expected Output1 		Expected Output2	Expected Output3	Expected Output4	Expected Output5
+DISTINCTION		distinction		[null]						distinction						0						0						11							[null]					distinction			0					0					11	
+qualification	qUALIFICATION	q							UALIFICATION					0						1						23							q						UALIFICATION		0					1					23		
+trying			tryING			try							ING								0						4						26							try						ING					0					4					26	
+chair			CHAIR			[null]						CHAIR							0						4						31							[null]					CHAIR				0					4					31	
+
+NOTE: Letter is updated per second and so is mistakes so for testing reason it is show every time the word is entered. 
+
+MODE: HARD
+
+Test 1: Correct Senteces. 
+Sentence												Input											Output1 (Correct Letters)          	   		Output2 (Incorrect Letters) 		Output3 (Score) 		Output4(Letters)		Output5(mistakes) 	Expected Output1 							Expected Output2	Expected Output3	Expected Output4	Expected Output5
+Arabic tied KINDS feb FUND SAME.						Arabic tied KINDS feb FUND SAME.				Arabic tied KINDS feb FUND SAME.			[null]									1						32						0				Arabic tied KINDS feb FUND SAME.			[null]					1						32				0					
+Demon HANDY canyon view ASSOCIATE flowers.				Demon HANDY canyon view ASSOCIATE flowers.		Demon HANDY canyon view ASSOCIATE flowers.	[null]									2						74						0				Demon HANDY canyon view ASSOCIATE flowers.	[null]					2						74				0			
+Adopt ANYTHING pd PAY MASTERS REMOVABLE.				Adopt ANYTHING pd PAY MASTERS REMOVABLE.		Adopt ANYTHING pd PAY MASTERS REMOVABLE.	[null]									3						114						0				Adopt ANYTHING pd PAY MASTERS REMOVABLE.	[null]					3						114				0
+
+test 2: inorrect Senteces. 
+Sentence												Input											Output1 (Correct Letters)          	   		Output2 (Incorrect Letters) 	 			Output3 (Score) 		Output4(Letters)		Output5(mistakes) 	Expected Output1 		Expected Output2							Expected Output3	Expected Output4	Expected Output5
+Coal DAME estates HULL tiny IMMUNE.						Arabic tied KINDS feb FUND SAME.				[null]										Arabic tied KINDS feb FUND SAME				0						0						32					[null]					Arabic tied KINDS feb FUND SAME.			0					0					32				
+Technology tp BLAME fate carrying bottle.				Demon HANDY canyon view ASSOCIATE flowers.		[null]										Demon HANDY canyon view ASSOCIATE flowers.	0						0						74					[null]					Demon HANDY canyon view ASSOCIATE flowers.	0					0					74				
+Korea salary till farm CONSTRAINT remember.    			Adopt ANYTHING pd PAY MASTERS REMOVABLE.		[null]										Adopt ANYTHING pd PAY MASTERS REMOVABLE		0						0						114					[null]					Adopt ANYTHING pd PAY MASTERS REMOVABLE.	0					0					114				
+
+Test 3: Opposing Letters								Input 											Output1 (Correct) 				Output2(Incorrect) 			Output3 (Score)		Output4 (Letters)	Output5(Mistakes) 	Expected Output1 		   Expected Output2		Expected Output3	Expected Output4	Expected Output5
+Hwy SMTP CAPTURED graham SETTINGS guilty.				hWY smtp captured graham SETTINGS guilty.		graham SETTINGS guilty.			hWY smtp captured			0					24					17					graham SETTINGS guilty.	   hWY smtp captured			0					24					17	
+Kids fellowship TRAVELERS REGIME homework USER.			Kids fellowship TRAVELERS regime HOMEWORK user. Kids fellowship TRAVELERS		regime HOMEWORK user.		0					49					38					Kids fellowship TRAVELERS  regime HOMEWORK user.		0					49					38
+Gb CONFIDENCE JPG NAMES glasses DEVIL.					Gb CONFIDENCE JPG names GLASSES devil.			Gb CONFIDENCE JPG				names GLASSES devil.		0				

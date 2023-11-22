@@ -1,0 +1,4 @@
+About Iteration 9:
+	In this Iteration The number of games played is shown. 
+	There is a msgbox that shows the WPM and Accuracy
+	A bit of the GUI is changed around for clarity in looks. 

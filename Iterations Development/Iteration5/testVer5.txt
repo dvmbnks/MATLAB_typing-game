@@ -1,0 +1,4 @@
+Testing Iteration 5
+
+In this, there isn't much to test as its pretty similar to previous version. All that can be tested is to ensrue that the timer 
+is being reduced on the GUI per second. Which it does. Hence there isn't any input/output that needs to be assessed. 

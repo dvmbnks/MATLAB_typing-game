@@ -1,0 +1,4 @@
+About Iteration 7
+	In this iteration, the most signifcant jump happens.
+	The correct letters and incorrect letters are displayed in the GUI
+	The GUI looks identical but this is a signifcant difference and is a completely new feature. 

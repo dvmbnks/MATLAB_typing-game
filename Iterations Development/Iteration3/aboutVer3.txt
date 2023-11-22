@@ -1,0 +1,5 @@
+AboutIteration3
+Iteration 3 differs from Iteration 2 as these features are added:
+	- Timer is shown in the GUI
+	- Enter Key can be used (char(13)) to input user's data so they don't have to press ENTER button on the GUI to register their input. 
+	- Colours are added and made more efficent. 

@@ -1,0 +1,2 @@
+In version 2, the primary difference from Version 1 is that there is a GUI that is created. 
+There are 2 buttons. One of which start the game. The other to press the input of the user.  

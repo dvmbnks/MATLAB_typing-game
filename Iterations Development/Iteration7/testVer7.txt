@@ -1,0 +1,30 @@
+Testing Iteration 7
+
+Test 1: Testing Correct Letters
+
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Expected Output1 		Expected Output2	Expected Output3
+thanksgiving	thanksgiving 	thanksgiving				[null]							1						thanksgiving				[null]			1
+qualification	qualification	qualification				[null]							2						qualification				[null]			2	
+read			read			read						[null]							3						read						[null]			3
+	
+	
+Test 2: Testing incorrect Letters
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Expected Output1 		Expected Output2	Expected Output3
+quantumn		poptropica 		[null]						poptropi						0						[null]					[null]				0
+qualification	your			[null]						your							0						[null]					[null]				0	
+books			tropical		[null]						tropi							0						[null]					[null]				0
+
+Test 3: Mixing Letters
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Expected Output1 		Expected Output2	Expected Output3
+letter			letier 		    let er						   i  							0						let er					   i 				0
+keyboard		keybaord		keyb  rd					    ao							0						keyb  rd				    ao				0	
+microphone		micriiphone		micr						    iiphon						0						micr					iiphon				0
+
+Test 4: Opposing Capital Letters:
+Word			Input			Output1 (Correct Letters)  Output2 (Incorrect Letters) 		Output3 (Score) 		Expected Output1 		Expected Output2	Expected Output3
+DISTINCTION		distinction		[null]						distinction						0						[null]					distinction			0
+qualification	qUALIFICATION	q							UALIFICATION					0						q						UALIFICATION		0	
+trying			tryING			try							ING								0						try						ING					0
+chair			CHAIR			[null]						CHAIR							0						[null]					CHAIR				0
+
+

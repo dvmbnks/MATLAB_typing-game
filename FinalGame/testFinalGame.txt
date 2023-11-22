@@ -1,0 +1,75 @@
+Mode: Easy
+
+Trial 1: Correct Word
+GAME:1
+Word		Input		Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 	Output5(Incorrect Letters) 	Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)		ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   ExpectedOutput(Incorrect Letters) Expected Output(Score) |
+trial		trial		5						/						1					trial						/							1				  5								/								1							trial							/									1					  
+who			who			8						/						1					who							/							2 				  8								/								1							who								/									2
+test		test		12						/						1					test						/							3				 12								/								1							test							/									3
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 		Expected Accuracy
+3			100					3					100
+
+Trial 2: Incorrect Word
+GAME:1
+Word		Input		Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 	Output5(Incorrect Letters) 	Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)		ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   ExpectedOutput(Incorrect Letters) Expected Output(Score) |
+trial		words		0						5						1					/							trial							1			|	  0								5								1							/								trial							0					  
+who			the			0						8						1					/							who								2 			|	  0								8								1							/								who								0
+test		play		0						12						1					/							test							3			|	  0								12								1							/								test							0
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 		Expected Accuracy
+0			0					0					0
+
+
+Trail 3: Mix Word
+GAME:1
+Word		Input		Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 	Output5(Incorrect Letters) 	Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)		ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   ExpectedOutput(Incorrect Letters) Expected Output(Score) |
+aboard		aborod		4						2						1					abo  d						ro								0			|	  4								2								1						abo  d								ro								0			 
+beyond		beyade		7						5						1					bey							ade								0 			|	  7								5								1						bey									ade								0 		
+chador		chayrs		10						8						1					cha							dor								0			|	  10							8								1						cha									dor								0
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 		Expected Accuracy
+0				56				0					56
+
+
+Mode: Hard
+
+Trial 1: Correct Word
+GAME:1
+Sentences											Input												Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 							Output5(Incorrect Letters) 	Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)		ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   					ExpectedOutput(Incorrect Letters) Expected Output(Score) |
+Interval HOPEFULLY ROOMMATE SAYS ANALYST RANGE.		Interval HOPEFULLY ROOMMATE SAYS ANALYST RANGE.		47						/						1					Interval HOPEFULLY ROOMMATE SAYS ANALYST RANGE.		/							1				 47								/								1					I		Interval HOPEFULLY ROOMMATE SAYS ANALYST RANGE.		/									1				  
+Checking fi configuring dentists dodge CONCERNS.	Checking fi configuring dentists dodge CONCERNS.	95						/						1					Checking fi configuring dentists dodge CONCERNS.	/							2 				 95								/								1							Checking fi configuring dentists dodge CONCERNS.	/									2 				
+Publicly DEEMED NOTRE integrity ROOMMATES PHRASE.	Publicly DEEMED NOTRE integrity ROOMMATES PHRASE.	144						/						1					Publicly DEEMED NOTRE integrity ROOMMATES PHRASE.	/							3				 144						 	/								1							Publicly DEEMED NOTRE integrity ROOMMATES PHRASE.	/									3				
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 		Expected Accuracy
+18			100					18					100
+
+Trial 2: incorrect Word
+GAME:1
+Sentences											Input											Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 							Output5(Incorrect Letters) 					Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)		ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   		ExpectedOutput(Incorrect Letters) 			Expected Output(Score) |
+Pasta join marks marked loan CRIME.					pASTA JOIN MARKS MARKED LOAN crime  			/						35						1					/													pASTA JOIN MARKS MARKED LOAN crime			0				 /								35								1							/										pASTA JOIN MARKS MARKED LOAN crime			0				
+Grenada poverty INCENTIVE FACTS DOMAINS SL.			gRENADA POVERTY incentive facts domains sl 	 	/						77						1					/													gRENADA POVERTY incentive facts domains sl 	0 				 /								77								1							/										gRENADA POVERTY incentive facts domains sl 	0 				
+Templates grams gs RESPONSE crack VBULLETIN.		tEMPLATES GRAMS GS response CRACK vbulletin 	/						120						1					/													tEMPLATES GRAMS GS response CRACK vbulletin	0				 /								120								1							/										tEMPLATES GRAMS GS response CRACK vbulletin	0				
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 		Expected Accuracy
+0			0					0					0
+
+
+TTrial 3: Mix Word
+GAME:1
+Sentences											Input														Output1(Letters)		Output2(Mistakes)		Output3(Games)		Ouput4(Correct Letters) 							Output5(Incorrect Letters) 					Output 6(Score)| ExpectedOutput1(Letters)		ExpectedOutput2(Mistakes)	ExpectedOutput3(Games)		ExpectedOuput(Correct Letters)   		ExpectedOutput(Incorrect Letters) 			Expected Output(Score) |
+Pleasant immigrants ROLLER subsidiary lift MYSIMON.	Pleasant immigrants ROLLER SUBSIDIARY LIFT mysimon.  			27						23						1				Pleasant immigrants ROLLER		.					SUBSIDIARY LIFT mysimon							0				27							23							1							Pleasant immigrants ROLLER		.		SUBSIDIARY LIFT mysimon							0			
+Containers harvard snap exchanges BENEFIT carries.	Containers harvard snap EXCHANGES benefit CARRIES.				51						48						1				Containers harvard snap			.					EXCHANGES benefit CARRIES	 					0 				51							48							1							Containers harvard snap			.		EXCHANGES benefit CARRIES	 					0 
+La CONDITIONAL CHAMPIONSHIPS stick turned mp.		La CONDITIONAL CHAMPIONSHIPS STICK TURNED MP.					80						67						1				La CONDITIONAL CHAMPIONSHIPS	.					CHAMPIONSHIPS STICK TURNED MP					0				80							67							1							La CONDITIONAL CHAMPIONSHIPS	.		CHAMPIONSHIPS STICK TURNED MP					0			
+End of Game 1
+
+WPM			Accuracy 		|| 	Expected WPM 	Expected Accuracy
+0				54				0				54			
+
+
+

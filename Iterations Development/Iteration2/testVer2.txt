@@ -1,0 +1,21 @@
+Testing if ENTER Button on GUI works when the user input is correct to Word. 
+Word		Input (User)        Output(Matlab)       Expected Output
+immigration	immigration			1				     1
+younger		younger 			2				     2
+youth		youth				3				     3
+
+Testing if ENTER Button on GUI works when the user gets it completely wrong
+Word		Input (User)         Output(Matlab)     Expected Output
+immigration	zero				0				 	0
+younger		young 				0				 	0
+youth		zoom				0				  	0
+
+Testing if ENTER Button on GUI works when the user writes the word in the wrong capitialisation
+Word		Input (User)        Output(Matlab)     Expected Output
+immigration	IMMIGRATION			0	                0
+younger		YOUNGER 			0	                0
+youth		YOUTH				0	                0
+
+
+In all the cases  (Score is the output) and assume that the same case has occured throughout the 60 seconds as there is a timer. 
+Note: Testing is identical between Iteration 1 and 2. 

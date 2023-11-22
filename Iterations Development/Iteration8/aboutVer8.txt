@@ -1,0 +1,6 @@
+About Iteration 8
+This iteration differs from previous as:
+	- In this the letters that you get correct are also present
+	- The number of mistakes you make is also present
+	- The game mode can also be selected
+	

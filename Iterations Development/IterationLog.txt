@@ -1,0 +1,42 @@
+Version 1:
+	This program is complete backbones of the project. It lays the most fundamental foundations such as Timer, Checking if the words are the same (From input and output). 
+Version 2:
+	In version 2, the primary difference from Version 1 is that there is a GUI that is created. 
+	There are 2 buttons. One of which start the game. The other to press the input of the user.  
+Version 3:
+	Iteration 3 differs from Iteration 2 as these features are added:
+	- Timer is shown in the GUI
+	- Enter Key can be used (char(13)) to input user's data so they don't have to press ENTER button on the GUI to register their input. 
+	- Colours are added and made more efficent. 
+Version 4:
+	- The GUI changed signifcantly.
+	- There is an image that displays how to play the game. 
+	- Randomly generates UPPER CASE WORDS
+Version 5:
+	- Timer Added on the GUI
+	- Game can be restarted. 
+Version 6:
+	- End SCREEN. 
+	- Only GUI Updates. 
+Version 7:
+	In this iteration, the most signifcant jump happens.
+	The correct letters and incorrect letters are displayed in the GUI
+	The GUI looks identical but this is a signifcant difference and is a completely new feature. 
+Version 8:
+	This iteration differs from previous as:
+	- In this the letters that you get correct are also present
+	- The number of mistakes you make is also present
+	- The game mode can also be selected
+Version 9:
+	In this Iteration The number of games played is shown. 
+	There is a msgbox that shows the WPM and Accuracy
+	A bit of the GUI is changed around for clarity in looks. 
+Version 10:
+	- In this iteration, an external storing data is added to create WPM and ACCURACY vectors. 
+	- In this iteration, another button is added that calls another function that shows a bar graph with User's performance. 
+	- Multiple games can be played by the user whilst having their data stored. 
+Final:
+The main test in Iteration 10 is to test the new plotResult function as that's the key difference. 
+This can be seen in the Driver File that is stored in Iteration 10 Folder. 
+File:plotResultDriver.m
+

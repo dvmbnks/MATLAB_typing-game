@@ -1,0 +1,6 @@
+‌Andrew 2014, MATLAB GUI Tutorial for Beginners, YouTube, viewed 25 April 2023, <https://www.youtube.com/watch?v=zyxi_1OyZ2I&t=462s&ab_channel=Andrew>.
+Create Bar Graph 2023, Mathworks.com, viewed 24 April 2023, <https://au.mathworks.com/help/matlab/ref/bar.html>.
+‌VisibleBreadcrumbs 2023, Mathworks.com, viewed 24 April 2023, <https://au.mathworks.com/help/matlab/matlab_prog/use-a-matlab-timer-object.html>.
+
+
+‌

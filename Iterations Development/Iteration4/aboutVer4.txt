@@ -1,0 +1,5 @@
+About Iteration 4
+	- The GUI changed signifcantly.
+	- There is an image that displays how to play the game. 
+	- Randomly generates UPPER CASE WORDS
+	

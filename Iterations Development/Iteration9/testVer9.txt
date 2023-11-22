@@ -1,0 +1,41 @@
+Testing Iteration 9
+
+Mode: EASY
+Test 1 (No Mistakes)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+32				0					5				5		100					5				100
+65				0					15				15		100					15				100
+76				0					18				18		100					18				100
+Test 2 (More Letter then mistakes)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+34				3					7				7		92					7				92
+53				5					14				14		95					14				95
+23				12					5				5		66					5				66
+Test 3 (More mistakes than letters)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+4				3					0				7		57					7				57	
+8				15					1				14		35					14				35
+12				20					2				5		38					5				38
+
+Mode: Hard
+
+Mode: EASY
+Test 1 (No Mistakes)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+222				0					5				30		100					30				100
+180				0					3				18		100					18				100
+130				0					2				12		100					12				100
+Test 2 (More Letter then mistakes)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+250				50					7				42		83					42				83
+175				25					4				24		88					24				88
+135				35					3				18		79					18				79
+Test 3 (More mistakes than letters)
+Letters			Mistakes			Score			WPM		Accuracy			Expected WPM	Expected Accuracy
+50				200					0				0		20					0				20
+24				300					1				6		35					6				35
+15				150					2				12		38					12				38
+
+
+
+

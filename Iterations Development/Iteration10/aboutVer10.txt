@@ -1,0 +1,4 @@
+Iteration 10
+	- In this iteration, an external storing data is added to create WPM and ACCURACY vectors. 
+	- In this iteration, another button is added that calls another function that shows a bar graph with User's performance. 
+	- Multiple games can be played by the user whilst having their data stored. 

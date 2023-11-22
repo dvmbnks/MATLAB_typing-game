@@ -1,0 +1,1 @@
+This program is complete backbones of the project. It lays the most fundamental foundations such as Timer, Checking if the words are the same (From input and output). 
